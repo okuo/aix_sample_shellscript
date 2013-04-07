@@ -71,4 +71,5 @@ do
     ssh -i $HOME/.ssh/nopass-dsa $SRV $COM
     print ""
     READ_KEY
-done g
+done
+
