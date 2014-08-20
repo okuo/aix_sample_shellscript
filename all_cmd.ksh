@@ -1,4 +1,5 @@
 ﻿#!/bin/ksh
+#メモ　hogehoge
 
 
 SRV_LIST1="AAA1 AAA2 AAA3"
