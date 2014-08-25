@@ -1,12 +1,33 @@
 ﻿#!/bin/ksh
-#メモ　hogehoge
 
 
+#サーバーリスト定義
 SRV_LIST1="AAA1 AAA2 AAA3"
 SRV_LIST2="AAA1"               
 SRV_LIST3="AAA2"               
 SRV_LIST4="AAA2"               
 SRV_LIST5="AAA3"               
+
+function usage {
+    cat <<EOF
+$(basename ${0}) is a tool for ...
+
+Usage:
+    $(basename ${0}) [command] [<options>]
+
+Options:
+    --version, -v     print $(basename ${0}) version
+    --help, -h        print this
+EOF
+}
+
+
+
+function version {
+    echo "$(basename ${0}) version 0.0.1 "
+}
+
+
 
 
 T_SRV=$1
