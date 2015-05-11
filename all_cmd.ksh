@@ -1,6 +1,7 @@
 ﻿#!/bin/ksh
 
 
+
 #サーバーリスト定義
 SRV_LIST1="AAA1 AAA2 AAA3"
 SRV_LIST2="AAA1"               
