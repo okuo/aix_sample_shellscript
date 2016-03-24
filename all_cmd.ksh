@@ -69,7 +69,7 @@ print ======================================================================
 for SRV in $SRV_LIST
 do
     print "=========================================== $SRV ==========================================="
-    ssh -i $HOME/.ssh/nopass-dsa $SRV $COM
+    ssh -i $HOME/.ssh/nopass-dsa $SRV "$COM"
     print ""
     READ_KEY
 done
